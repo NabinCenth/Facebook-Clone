@@ -1,0 +1,130 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    background-color: #F0F2F5;
+
+}
+.container{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    display: flex;
+    flex-direction:column;
+    width: 350px;
+    height: 400px;
+    background: #ffffff;
+ justify-content: center;
+    align-items: center;
+   
+    padding: 2%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.acc-btn{
+    border-radius: 2%;
+ width:45%;
+ height: 10%;
+ background-color: rgb(66, 183, 42);
+ color: white;
+ font-size: 15px;
+    font-weight: 500;
+ border-radius: 3px;
+ border: none;
+
+}
+.acc-btn:hover{
+    background-color: rgb(50, 145, 34);
+    color: white;
+}
+.pass-btn{
+    border-radius: 2%;
+ width:45%;
+ height: 15%;
+    background-color: white;
+    border:none;
+
+}
+.login-btn{
+    background:#0866ff;
+    border-radius: 6px;
+    height: 10%;
+    border : 1px solid #0866ff;
+    width:90%;
+   font-size: 20px;
+   font-weight:550;
+    color: white;
+    font-family: "Roboto", serif;
+}
+.login-btn:hover{
+    background-color:#0654cc;
+    color: white;
+
+}
+.password , .email{
+    width: 85%;
+    height: 10%;
+    border: 0.001px solid #433f3f84;
+    border-radius: 4px;
+    text-indent: 11px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.password:focus,.email:focus{
+    border-color: #0866ff;
+    outline: none;
+    
+   border: 1px solid #0866ff;
+ opacity: 0.5;
+}
+.password::placeholder,.email::placeholder {
+    color: gray;
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    opacity: 1; /* Ensures visibility */
+  }
+  
+.part-1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+  
+   
+}
+.logo{
+    position: absolute;
+    width: 49%;
+    height: 49%;
+  top: 13%;
+  left:25%;
+    display: flex;
+  
+}
+.text{
+    position: absolute;
+    top: 40%;
+    left: 29%;
+    
+    font-family: "Roboto", serif;
+    font-weight: 600; 
+font-size: 24px; 
+color: #1C1E21;
+
+  
+    padding-right: 4%;
+}
+.line {
+    position: absolute;
+    background-color: #1C1E21;
+}
+.pass-btn{
+    outline: none;
+    color: #0866ff;
+   
+}
+.pass-btn:hover{
+    text-decoration: underline;
+}
